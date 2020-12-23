@@ -13,12 +13,6 @@ NewPing sonar[SONAR_NUM] = {  // Sensor object array.
 
 void setup() {
   Serial.begin(9600);   //시리얼모니터
-
-  //모터 핀모드 설정
-  pinMode(LEFT_A1, OUTPUT);
-  pinMode(RIGHT_A2, OUTPUT);
-  pinMode(LEFT_B1, OUTPUT);
-  pinMode(RIGHT_B2, OUTPUT);
 }
 
 void loop() {
